@@ -70,11 +70,7 @@ namespace GraGUI
                     buttonLosuj.Enabled = false;
                     textBoxZakresOd.Enabled = false;
                     textBoxZakresDo.Enabled = false;
-                    groupBox1.Visible = true;
-
-                    string wyn = Convert.ToString(g.Wylosowana);
-
-                    
+                    groupBox1.Visible = true;                  
                 }
 
             }
