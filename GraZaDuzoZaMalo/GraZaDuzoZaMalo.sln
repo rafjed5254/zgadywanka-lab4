@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2026
+VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraMonolitycznie", "GraMonolitycznie\GraMonolitycznie.csproj", "{08854A81-4362-495A-93E9-8E0CBA4D4CF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraMonolitycznie", "GraMonolitycznie\GraMonolitycznie.csproj", "{63F8476A-DFE1-4F8F-9E25-F839E7936382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraProceduralnie", "GraProceduralnie\GraProceduralnie.csproj", "{1606A736-7BBF-4E4C-B3B9-B1ED0B8BFEF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelGry", "ModelGry\ModelGry.csproj", "{538B7968-FA88-4610-BEF9-C0041885AA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProjectModelGry", "UnitTestProjectModelGry\UnitTestProjectModelGry.csproj", "{8A239064-91F4-4417-8137-ADDB2CD95CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraGUI", "GraGUI\GraGUI.csproj", "{1CFF2311-DC7F-4CB3-8FAF-C545EAA11603}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +19,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{08854A81-4362-495A-93E9-8E0CBA4D4CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08854A81-4362-495A-93E9-8E0CBA4D4CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08854A81-4362-495A-93E9-8E0CBA4D4CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08854A81-4362-495A-93E9-8E0CBA4D4CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F8476A-DFE1-4F8F-9E25-F839E7936382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F8476A-DFE1-4F8F-9E25-F839E7936382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F8476A-DFE1-4F8F-9E25-F839E7936382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F8476A-DFE1-4F8F-9E25-F839E7936382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1606A736-7BBF-4E4C-B3B9-B1ED0B8BFEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1606A736-7BBF-4E4C-B3B9-B1ED0B8BFEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1606A736-7BBF-4E4C-B3B9-B1ED0B8BFEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1606A736-7BBF-4E4C-B3B9-B1ED0B8BFEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538B7968-FA88-4610-BEF9-C0041885AA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538B7968-FA88-4610-BEF9-C0041885AA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538B7968-FA88-4610-BEF9-C0041885AA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538B7968-FA88-4610-BEF9-C0041885AA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A239064-91F4-4417-8137-ADDB2CD95CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A239064-91F4-4417-8137-ADDB2CD95CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A239064-91F4-4417-8137-ADDB2CD95CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A239064-91F4-4417-8137-ADDB2CD95CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CFF2311-DC7F-4CB3-8FAF-C545EAA11603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CFF2311-DC7F-4CB3-8FAF-C545EAA11603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CFF2311-DC7F-4CB3-8FAF-C545EAA11603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CFF2311-DC7F-4CB3-8FAF-C545EAA11603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {90F3781C-CA4F-4AC6-96E8-9C9FE55299F6}
+		SolutionGuid = {4B61FA7C-D094-4BC9-A8EB-587399E9C509}
 	EndGlobalSection
 EndGlobal
